@@ -1,0 +1,25 @@
+.list {
+  width: 400px;
+}
+  
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+  
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}
+  
+.text {
+  padding: 2px;
+  margin: 2px;
+}
+  
+.button {
+  width: 75px;
+}
+
+.button:hover {
+  background-color: rgb(0, 140, 255);
+} 
